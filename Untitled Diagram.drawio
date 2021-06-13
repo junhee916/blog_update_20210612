@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T01:51:07.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.7" etag="GjxRjycm6zyA6ZTUR1zG" type="github"><diagram id="IzlXTpwW6o7o62uS0WEG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-13T02:06:47.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="uWDBEnw08sZ63IOGtBOk" version="14.7.7" type="github">
+  <diagram id="IzlXTpwW6o7o62uS0WEG" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V6XNfu9ZdhstBdqIbPVm-1" target="V6XNfu9ZdhstBdqIbPVm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-1" value="&lt;b&gt;showScrollDirection&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-2" value="&lt;h1&gt;컨텐츠, 가이드 방향 조작&amp;nbsp;&lt;/h1&gt;&lt;p&gt;가이드 방향에 따라서 페이지 전환하고 연관이 있는 것을 확인&amp;nbsp;&lt;/p&gt;&lt;p&gt;확실하게 해야하는 것은 스크롤 방향일 때는 스크롤만 나오게 해야하고 그 외 페이지 전환은 오른쪽으로 이동하면 정방향 왼쪽으로 이동하면 역방향이 나오게 해야한다.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V6XNfu9ZdhstBdqIbPVm-4" target="V6XNfu9ZdhstBdqIbPVm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-4" value="&lt;b&gt;view_mode_change&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-5" value="&lt;h1&gt;모드 전환 조작&lt;/h1&gt;&lt;p&gt;버튼 및 스크롤모드일 때랑 페이지모드일 때 전환하는 것을 도와줄 수 있지만 기능적인 부분을 컨트롤 하기에는 제한이 됨&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V6XNfu9ZdhstBdqIbPVm-7" target="V6XNfu9ZdhstBdqIbPVm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-7" value="&lt;b&gt;onePageMode&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V6XNfu9ZdhstBdqIbPVm-8" target="V6XNfu9ZdhstBdqIbPVm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-8" value="&lt;b&gt;twoPageMode&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V6XNfu9ZdhstBdqIbPVm-9" value="&lt;h1&gt;&lt;span&gt;단면, 양면 전환 조작&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;단면, 양면 페이지 전환인데 여기서 가장 문제가 되었던 부분은 버튼을 눌렀을 때 제대로 기능 구현을 하지 못했다. 이부분을 하나하나 뜯어서 확인해야겠다.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="640" width="340" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
