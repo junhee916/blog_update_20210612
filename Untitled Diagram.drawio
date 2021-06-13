@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T07:40:01.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mOK8A3FuWtM8uojoqS6M" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-13T07:43:37.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="x4CiFJZH24FjUnnxLTze" version="14.7.7" type="github">
   <diagram id="IzlXTpwW6o7o62uS0WEG" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,16 +60,14 @@
         <mxCell id="YyI7yfQiKExQXq_ci0Xg-4" value="&lt;b&gt;주의 사항&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="80" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YyI7yfQiKExQXq_ci0Xg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YyI7yfQiKExQXq_ci0Xg-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="925" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="YyI7yfQiKExQXq_ci0Xg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YyI7yfQiKExQXq_ci0Xg-5" target="YyI7yfQiKExQXq_ci0Xg-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YyI7yfQiKExQXq_ci0Xg-5" value="&lt;b&gt;onkeydown&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="80" y="900" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YyI7yfQiKExQXq_ci0Xg-6" value="&lt;h1&gt;방향키 조작 관련&lt;/h1&gt;&lt;p&gt;방향키조작을 해서 각각 넣어서 진행할려고했으나 계속 에러가 발생 우선 스크롤이라도 제대로 적용할 예정&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="875" width="270" height="100" as="geometry" />
+          <mxGeometry x="260" y="875" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YyI7yfQiKExQXq_ci0Xg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YyI7yfQiKExQXq_ci0Xg-8" target="YyI7yfQiKExQXq_ci0Xg-9">
           <mxGeometry relative="1" as="geometry" />
@@ -92,10 +90,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YyI7yfQiKExQXq_ci0Xg-13" value="&lt;b&gt;engineLoader.load()&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1020" width="150" height="50" as="geometry" />
+          <mxGeometry x="80" y="1010" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YyI7yfQiKExQXq_ci0Xg-14" value="&lt;h1&gt;&lt;span&gt;데이터 확인&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;데이터를 가져올 때 이상이 있을 경우 이 부분을 정밀 분석해보자&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="985" width="190" height="120" as="geometry" />
+          <mxGeometry x="260" y="975" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YyI7yfQiKExQXq_ci0Xg-16" value="&lt;h1&gt;보류&amp;nbsp;&lt;/h1&gt;&lt;p&gt;우선 이부분에 대해서는 크게 문제가 되지 않았음&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="15" width="190" height="120" as="geometry" />
@@ -105,6 +103,15 @@
             <mxPoint x="750" y="160" as="sourcePoint" />
             <mxPoint x="750" y="733.2000122070312" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YyI7yfQiKExQXq_ci0Xg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YyI7yfQiKExQXq_ci0Xg-19" target="YyI7yfQiKExQXq_ci0Xg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YyI7yfQiKExQXq_ci0Xg-19" value="&lt;b&gt;viewer_wrapper&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="880" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YyI7yfQiKExQXq_ci0Xg-20" value="&lt;h1&gt;&lt;span&gt;contents 크기 관련&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;상단에 내용을 정밀분석을 했는데도 안되면 viewer_wrapper도 다 하나하나 뜯어서 확인해보자&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="985" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
